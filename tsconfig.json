@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",  // 或更高版本
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],  // 确保 Jest 测试文件在 tsconfig 中
+  "exclude": [
+    "../node_modules"
+  ]
+}
